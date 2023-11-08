@@ -1,0 +1,70 @@
+.App {
+	text-align: center;
+}
+.Pokedex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 20px;
+}
+
+.Pokecard {
+	width: calc(25% - 20px);
+	margin-bottom: 20px;
+	height: 200px;
+	border: 1px solid black;
+	background-color: lightblue;
+}
+.Pokecard-pokemon-info {
+	margin: 10px;
+}
+img {
+	border: solid 1px black;
+}
+
+/*
+.App-logo {
+	height: 10vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 100s linear;
+	}
+}
+
+.App-header {
+	background-color: #282c34;
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(5px + 2vmin);
+	color: white;
+}
+.App-footer {
+	background-color: #282c34;
+	min-width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(5px + 2vmin);
+	color: white;
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+} */
